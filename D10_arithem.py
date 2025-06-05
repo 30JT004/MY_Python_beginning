@@ -1,0 +1,10 @@
+print("TIP CALCULATOR")
+print()
+amt=float(input("How much did you spend?\n"))
+print()
+tip=float(input("What amout=nt do you want to tip?\n"))
+print()
+people=int(input("How many people in your Group?\n"))
+print()
+payable=(amt+tip)/people
+print("Payable Amount for each of you is: $",payable)
